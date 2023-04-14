@@ -2,6 +2,8 @@ var spreadsheet_id = '19EbSWz1kRuTh1gL41VWqHJ0ssb2p3Z5NAu0UfmJxxsM'
 var tabName = 'Лист1'
 var apiKey = 'AIzaSyC6V7Wyi0tRkhfG9-c4SJWIvXJalxT9yno'
 var url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheet_id}/values/${tabName}?alt=json&key=${apiKey}`
+// новая ссылка 
+// https://sheets.googleapis.com/v4/spreadsheets/${spreadsheet_id}/values/${tabName}?key=${apiKey}
 console.log(url)
 var json
 
